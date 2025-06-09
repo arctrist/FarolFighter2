@@ -66,6 +66,22 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Hit - Box
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.5, y: 0.5, z: 0.5}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
   m_FloatCurves:
   - serializedVersion: 2
     curve:
@@ -110,25 +126,21 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 1e9b7b568c4fac1448647a9430f5eb4a, type: 3}
-    - time: 0.083333336
-      value: {fileID: 21300000, guid: e5db0e28839c0ec4c9f24de7fdcb7bc9, type: 3}
+      value: {fileID: 21300000, guid: 065270992477bec4f9d03941c087daad, type: 3}
+    - time: 0.05
+      value: {fileID: 21300000, guid: c8db8be3e34db1c4697152fa548178b2, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: 10798f6bccac2d146a0e2d6173f169fa, type: 3}
     - time: 0.16666667
-      value: {fileID: 21300000, guid: 78572df36ad04c84c9d3da5608cb48d9, type: 3}
-    - time: 0.25
-      value: {fileID: 21300000, guid: f4de2c472b9f14b47b2a6c17f2201762, type: 3}
+      value: {fileID: 21300000, guid: ce44e46dacfe3fe4d9e30d7743622e04, type: 3}
+    - time: 0.21666667
+      value: {fileID: 21300000, guid: d7aa011fd5f2a8c4595ebc0f557b39c9, type: 3}
+    - time: 0.28333333
+      value: {fileID: 21300000, guid: 2c32148847c797a45ace095df81150a0, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300000, guid: f68790e6f05341c4bb1617ad6294df41, type: 3}
-    - time: 0.41666666
-      value: {fileID: 21300000, guid: a0e5ec67177b3ee4aa879b4ab65aa21d, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: d313bba2925681d44a699452b87b5bc4, type: 3}
-    - time: 0.5833333
-      value: {fileID: 21300000, guid: 5fbcb0e37aa13404b973bcfada2fe04c, type: 3}
-    - time: 0.6666667
-      value: {fileID: 21300000, guid: 432882583a58ca74bb7de083c784354f, type: 3}
-    - time: 0.75
-      value: {fileID: 21300000, guid: 041e8680bf6d80944839e989e27ad3a3, type: 3}
+      value: {fileID: 21300000, guid: 18168be69624e044db740890fabd422a, type: 3}
+    - time: 0.4
+      value: {fileID: 21300000, guid: d24d913a828dafb4586bf180794cc15b, type: 3}
     attribute: m_Sprite
     path: SpriteRenderer - Layer 1
     classID: 212
@@ -177,23 +189,30 @@ AnimationClip:
       isPPtrCurve: 1
       isIntCurve: 0
       isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 1e9b7b568c4fac1448647a9430f5eb4a, type: 3}
-    - {fileID: 21300000, guid: e5db0e28839c0ec4c9f24de7fdcb7bc9, type: 3}
-    - {fileID: 21300000, guid: 78572df36ad04c84c9d3da5608cb48d9, type: 3}
-    - {fileID: 21300000, guid: f4de2c472b9f14b47b2a6c17f2201762, type: 3}
-    - {fileID: 21300000, guid: f68790e6f05341c4bb1617ad6294df41, type: 3}
-    - {fileID: 21300000, guid: a0e5ec67177b3ee4aa879b4ab65aa21d, type: 3}
-    - {fileID: 21300000, guid: d313bba2925681d44a699452b87b5bc4, type: 3}
-    - {fileID: 21300000, guid: 5fbcb0e37aa13404b973bcfada2fe04c, type: 3}
-    - {fileID: 21300000, guid: 432882583a58ca74bb7de083c784354f, type: 3}
-    - {fileID: 21300000, guid: 041e8680bf6d80944839e989e27ad3a3, type: 3}
+    - {fileID: 21300000, guid: 065270992477bec4f9d03941c087daad, type: 3}
+    - {fileID: 21300000, guid: c8db8be3e34db1c4697152fa548178b2, type: 3}
+    - {fileID: 21300000, guid: 10798f6bccac2d146a0e2d6173f169fa, type: 3}
+    - {fileID: 21300000, guid: ce44e46dacfe3fe4d9e30d7743622e04, type: 3}
+    - {fileID: 21300000, guid: d7aa011fd5f2a8c4595ebc0f557b39c9, type: 3}
+    - {fileID: 21300000, guid: 2c32148847c797a45ace095df81150a0, type: 3}
+    - {fileID: 21300000, guid: 18168be69624e044db740890fabd422a, type: 3}
+    - {fileID: 21300000, guid: d24d913a828dafb4586bf180794cc15b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.76666665
+    m_StopTime: 0.4166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -425,6 +444,69 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
     path: Hit - Box
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
